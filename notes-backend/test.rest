@@ -1,0 +1,16 @@
+GET http://localhost:3000/Showdocument
+
+###
+
+PUT http://localhost:3000/document/changeDocument
+
+
+###
+
+POST http://localhost:3000/document/newDocument
+content-type: application/json
+
+
+###
+
+DELETE http://localhost:3000/document/deleteDocument
